@@ -1,7 +1,11 @@
 //Creates a function that alerts the user of their name and age.
 function go(name, age){
-    alert(name);
-    alert(age);
+    return name+' '+age;
+}
+
+//Creates a function that adds two numbers
+function add(first, second){
+    return first+second;
 }
 
 go('Jake', 20);  //Calls the go() function
