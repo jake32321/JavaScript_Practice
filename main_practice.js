@@ -8,6 +8,25 @@ function add(first, second){
     return first+second;
 }
 
+//Gives different outputs based of the age of the user
+function age_checker(age){
+    if(age < 20){
+      alert('You really aren\'t that old to be honest...');
+    }
+    if(age > 20 && age < 50){
+      alert('You are starting to get up there in years my friend!');
+    }
+    if(age > 50 && age < 100){
+      alert('You should have the senior discount by now.');
+    }
+    if(age >= 100){
+      alert('Damn you\'re old!');
+    }
+    else{
+      alert('That doesn\'t work with the value you entered...');
+    }
+}
+
 go('Jake', 20);  //Calls the go() function
 go('Adam', 17);  //Calls it again
 
@@ -24,9 +43,9 @@ var age = prompt();
 //Combines the first and last name into one string
 var name = firstName+' '+lastName;
 
-//Calls the go() function with the new variables
+//Calls the go() and age_checker() functions with the new variables
 go(name, age);
-
+age_checker(age);
 
 //Asks the user for two inputs as numbers
 alert('Please enter a number...');
