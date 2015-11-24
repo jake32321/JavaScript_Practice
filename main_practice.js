@@ -26,3 +26,15 @@ var name = firstName+' '+lastName;
 
 //Calls the go() function with the new variables
 go(name, age);
+
+
+//Asks the user for two inputs as numbers
+alert('Please enter a number...');
+var firstNum = prompt();
+
+alert('Please enter another number...');
+var secondNum = prompt();
+
+//Returns the sum of the two entered values
+var sum = add(firstNum, secondNum);
+alert(sum);
