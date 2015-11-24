@@ -36,5 +36,4 @@ alert('Please enter another number...');
 var secondNum = prompt();
 
 //Returns the sum of the two entered values
-var sum = add(firstNum, secondNum);
-alert(sum);
+alert(add(firstNum, secondNum));
